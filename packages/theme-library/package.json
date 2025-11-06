@@ -1,0 +1,49 @@
+{
+  "name": "@mui-theme-builder/theme-library",
+  "version": "1.0.0",
+  "description": "A comprehensive MUI theme library with presets, plugins, and React integration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsc -p tsconfig.build.json --watch",
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint .",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mui/system": "^7.3.3",
+    "@mui/material": "^7.3.4",
+    "@mui/material-nextjs": "^7.3.3",
+    "@mui/icons-material": "^7.3.4",
+    "@emotion/styled": "^11.14.1",
+    "@emotion/cache": "^11.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "typescript": "^5.6.0",
+    "eslint": "^8.57.0",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "keywords": [
+    "mui",
+    "material-ui",
+    "theme",
+    "theming",
+    "design-system",
+    "preset",
+    "glassmorphism",
+    "neumorphism",
+    "brutalism"
+  ],
+  "author": "",
+  "license": "MIT"
+}
