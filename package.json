@@ -9,7 +9,8 @@
     "start": "pnpm --filter @repo/theme-studio start",
     "prod": "pnpm build && pnpm start",
     "preview": "pnpm --filter @repo/theme-studio preview",
-    "deploy": "pnpm --filter @repo/theme-studio deploy"
+    "deploy": "cd apps/theme-studio && npx wrangler deploy",
+    "version": "cd apps/theme-studio && npx wrangler versions upload"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
