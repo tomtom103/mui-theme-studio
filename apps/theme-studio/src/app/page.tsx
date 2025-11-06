@@ -103,7 +103,7 @@ export default function ThemeStudio() {
           <Button
             variant="contained"
             startIcon={<Code />}
-            onClick={() => setActiveTab(3)}
+            onClick={() => setActiveTab(1)}
           >
             Export Theme
           </Button>
