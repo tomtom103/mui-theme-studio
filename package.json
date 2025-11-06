@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "build:cloudflare": "pnpm --filter @repo/theme-studio build:cloudflare",
+    "build:cloudflare": "turbo run build --filter=@mui-theme-builder/theme-library && pnpm --filter @repo/theme-studio build:cloudflare",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
