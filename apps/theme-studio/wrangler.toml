@@ -3,6 +3,10 @@ name = "mui-theme-studio"
 compatibility_date = "2025-11-05"
 compatibility_flags = ["nodejs_compat"]
 
+routes = [
+  { pattern = "studio.tcaron.com", custom_domain = true }
+]
+
 [assets]
 directory = ".open-next/assets"
 binding = "ASSETS"

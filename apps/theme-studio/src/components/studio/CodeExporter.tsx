@@ -64,9 +64,7 @@ export default function CodeExporter() {
           onChange={(_, val) => val && setFormat(val)}
           size="small"
         >
-          <ToggleButton value="theme-library">Theme Library (Recommended)</ToggleButton>
-          <ToggleButton value="typescript">Legacy TypeScript</ToggleButton>
-          <ToggleButton value="json">JSON</ToggleButton>
+          <ToggleButton value="typescript">TypeScript</ToggleButton>
         </ToggleButtonGroup>
       </Box>
 
